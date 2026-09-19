@@ -32,3 +32,35 @@
 - 右侧：`PHOTO ARCHIVE / P1012494`
 
 页面定位为 SHUTTERCODE 服装产品的附加摄影内容；照片本身保持主体地位，品牌只作为顶部识别系统出现。
+
+
+## 建筑信息版
+本版已将照片标题改为 `Bosco Verticale`，副标题为 `Porta Nuova · Milano`。
+作品说明已改为建筑介绍，并增加 Architecture Info：
+- Boeri Studio
+- Stefano Boeri / Gianandrea Barreca / Giovanni La Varra
+- 2014
+- Residential Towers
+- 110 m / 76 m
+- 800 trees / 4,500 shrubs / 20,000 plants
+
+
+## 中英双语版本
+
+页面现在分为两个独立地址：
+
+- 中文：`index.html`
+- English：`en.html`
+
+右上角语言按钮可一键切换：
+- 中文页显示 `EN`
+- 英文页显示 `中文`
+
+GitHub Pages 发布后，例如：
+- 中文：`https://wu-droid.github.io/NFC-2/`
+- English：`https://wu-droid.github.io/NFC-2/en.html`
+
+NFC 建议仍写中文首页地址：
+`https://wu-droid.github.io/NFC-2/`
+
+访客进入后可在右上角切换语言。
