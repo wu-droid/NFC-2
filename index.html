@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f6f2">
+  <meta name="description" content="Single photography NFC page">
+  <title>作品名称 — Photograph</title>
+  <link rel="preload" href="assets/photo.jpg" as="image">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <span>PHOTO / NFC</span>
+    <span>001</span>
+  </header>
+
+  <main>
+    <section class="photo-wrap" id="top">
+      <button class="photo-button" id="openPhoto" aria-label="放大照片">
+        <img src="assets/photo.jpg" alt="作品照片" fetchpriority="high">
+      </button>
+    </section>
+
+    <section class="title-block">
+      <div>
+        <p class="eyebrow">PHOTOGRAPH / 2026</p>
+        <h1>作品名称</h1>
+        <p class="sub">系列名称 / Series Name</p>
+      </div>
+
+      <div class="basic">
+        <div><span>地点</span><b>Milano, Italy</b></div>
+        <div><span>年份</span><b>2026</b></div>
+        <div><span>作者</span><b>你的名字</b></div>
+      </div>
+    </section>
+
+    <section class="specs">
+      <div class="section-no">01</div>
+
+      <div class="spec-card">
+        <p class="label">SHOOTING DATA</p>
+        <dl>
+          <div><dt>相机</dt><dd>Sony A7 IV</dd></div>
+          <div><dt>镜头</dt><dd>FE 35mm F1.4 GM</dd></div>
+          <div><dt>焦距</dt><dd>35 mm</dd></div>
+          <div><dt>光圈</dt><dd>f/2.8</dd></div>
+          <div><dt>快门</dt><dd>1/250 s</dd></div>
+          <div><dt>ISO</dt><dd>ISO 200</dd></div>
+          <div><dt>曝光补偿</dt><dd>0 EV</dd></div>
+          <div><dt>白平衡</dt><dd>Auto</dd></div>
+        </dl>
+      </div>
+
+      <div class="spec-card">
+        <p class="label">WORK INFO</p>
+        <dl>
+          <div><dt>类别</dt><dd>Digital Photography</dd></div>
+          <div><dt>色彩</dt><dd>Color</dd></div>
+          <div><dt>比例</dt><dd>4:5</dd></div>
+          <div><dt>后期</dt><dd>Lightroom / Photoshop</dd></div>
+          <div><dt>输出</dt><dd>Archival Pigment Print</dd></div>
+          <div><dt>尺寸</dt><dd>待补</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="section-no">02</div>
+      <div>
+        <p class="label">STATEMENT</p>
+        <p class="lead">
+          这里填写这张照片的作品说明。可以写拍摄地点、当时的环境、
+          画面意图、光线条件、构图选择，或者它与整个摄影系列之间的关系。
+        </p>
+      </div>
+    </section>
+
+    <section class="notes">
+      <div class="section-no">03</div>
+      <div>
+        <p class="label">NOTES</p>
+        <p>
+          这里可以填写补充信息，例如拍摄日期、天气、胶片/数码流程、
+          展览信息、打印方式、版权信息等。不需要的话可以删除这一段。
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>NFC PHOTOGRAPH</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <dialog id="lightbox">
+    <button id="closeLightbox" aria-label="关闭">×</button>
+    <img src="assets/photo.jpg" alt="放大照片">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
