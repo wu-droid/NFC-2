@@ -64,3 +64,28 @@ NFC 建议仍写中文首页地址：
 `https://wu-droid.github.io/NFC-2/`
 
 访客进入后可在右上角切换语言。
+
+
+## Safari 缓存优化版
+
+当前构建版本：`20260919-01`
+
+本版本做了四层处理：
+
+1. `style.css`、`script.js`、照片全部改成带版本号的文件名；
+2. 页面会主动以 `cache: no-store` 请求 `version.json`；
+3. 如果检测到新版本，会自动把页面切换到 `?v=新版本`；
+4. 对 Safari 的 Back/Forward Cache（BFCache）增加重新检查。
+
+因此以后仍然可以让 NFC 保持同一个稳定地址：
+
+`https://wu-droid.github.io/NFC-2/`
+
+更新网页时只需修改 `version.json` 的版本号并同步更新资源文件名即可。
+
+### 第一次从旧版切换
+由于 Safari 里可能仍保存着“优化前”的旧 HTML，上传本版后第一次建议手动打开：
+
+`https://wu-droid.github.io/NFC-2/?v=20260919-01`
+
+确认新版本出现后，以后的更新就能由页面自动检查版本。
